@@ -1,0 +1,9 @@
+{
+  "product": "AI Workout Building Kit",
+  "version": "0.1.0",
+  "release_stage": "generalized foundation",
+  "manual_count": 6,
+  "configuration_schema": "0.1.0",
+  "workbook_schema": "0.1.0"
+}
+

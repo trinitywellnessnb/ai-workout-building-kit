@@ -1,0 +1,23 @@
+schema_version: 0.1.0
+naming:
+  system: recommended
+  format: "[Workout Name] [Level].[Version] ([Style or Goal])"
+  preserve_exact_trainerize_titles: true
+workouts:
+  default_duration_minutes: 60
+  warm_up_required: true
+  inter_block_rest_allowed: true
+  cool_down_required: true
+  missing_movement_policy: ask
+  reuse_verified_workouts_first: true
+programs:
+  common_lengths_weeks: []
+  preferred_phase_lengths_weeks: []
+  scheduling_model: trainer_defined
+execution:
+  draft_before_live_write: true
+  require_read_back_verification: true
+  synchronize_registry_after_save: true
+  learn_from_verified_coach_corrections: true
+  allow_fuzzy_movement_substitution: false
+

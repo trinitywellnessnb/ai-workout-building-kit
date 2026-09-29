@@ -1,0 +1,18 @@
+schema_version: 0.1.0
+automatic_actions:
+  - read_project_sources
+  - analyze_registry_data
+  - draft_workouts
+  - validate_draft_programming
+approval_required:
+  - create_or_edit_trainerize_exercise
+  - create_or_edit_saved_workout
+  - add_or_edit_program_phase
+  - schedule_or_reschedule_calendar_item
+  - delete_or_overwrite_saved_content
+never_allowed_without_explicit_scope:
+  - store_credentials
+  - expose_client_private_information
+  - silently_substitute_unverified_movements
+  - claim_success_without_read_back_verification
+

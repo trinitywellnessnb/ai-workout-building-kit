@@ -1,0 +1,30 @@
+schema_version: 0.1.0
+trainer:
+  display_name: ""
+  business_name: ""
+  credentials: []
+  email: ""
+  phone: ""
+  website: ""
+  booking_url: ""
+  timezone: ""
+  location: ""
+social:
+  instagram: ""
+  facebook: ""
+  tiktok: ""
+  youtube: ""
+  linkedin: ""
+  other: []
+brand:
+  voice: "professional and clear"
+  colors: []
+  preferred_terms: []
+  prohibited_terms: []
+  logo_file: ""
+client_population:
+  primary_groups: []
+  specialties: []
+  common_training_locations: []
+  common_equipment: []
+

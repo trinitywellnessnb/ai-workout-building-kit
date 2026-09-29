@@ -1,0 +1,14 @@
+interface:
+  display_name: Trainerize Workout System
+  short_description: Build and manage verified Trainerize workout systems
+  default_prompt: Use my Trainerize project manuals, configuration, and registries
+    to complete this workout-building task safely and accurately.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
